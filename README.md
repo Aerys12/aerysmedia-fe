@@ -41,7 +41,7 @@ Aerys Media front end
 
 
 Development stages
-[] setup and deployment 
+[x] setup and deployment 
 [] Dashboard Component: Serves as the home page for the admin where they can navigate to different   sections (galleries, images, services).
     [] Service component
     [] Gallery component

@@ -1,6 +1,8 @@
+"use client";
 import Link from "next/link";
 import Image from "next/image";
-import aerys from "../../public/_MG_6363.jpg";
+import aerys from "../../../../public/_MG_6363.jpg";
+import { usePathname } from "next/navigation";
 
 import {
 	Package2,
@@ -32,6 +34,8 @@ import {
 import { Input } from "@/components/ui/input";
 
 export default function DashboardHeader() {
+	const path = usePathname();
+	const pathnames = path.split("/").filter((x) => x);
 	return (
 		<div className='flex flex-col sm:gap-4 sm:py-4 sm:pl-14'>
 			<header className='sticky top-0 z-30 flex h-14 items-center gap-4 border-b bg-background px-4 sm:static sm:h-auto sm:border-0 sm:bg-transparent sm:px-6'>
@@ -52,28 +56,28 @@ export default function DashboardHeader() {
 								<span className='sr-only'>Aerys Media Photography</span>
 							</Link>
 							<Link
-								href='#'
+								href='/admin'
 								className='flex items-center gap-4 px-2.5 text-muted-foreground hover:text-foreground'
 							>
 								<Home className='h-5 w-5' />
 								Dashboard
 							</Link>
 							<Link
-								href='#'
+								href='/admin/services'
 								className='flex items-center gap-4 px-2.5 text-muted-foreground hover:text-foreground'
 							>
 								<Package className='h-5 w-5' />
 								Services
 							</Link>
 							<Link
-								href='#'
+								href='/admin/galleries'
 								className='flex items-center gap-4 px-2.5 text-foreground'
 							>
 								<GalleryVerticalEnd className='h-5 w-5' />
 								Galleries
 							</Link>
 							<Link
-								href='#'
+								href='/admin/images'
 								className='flex items-center gap-4 px-2.5 text-muted-foreground hover:text-foreground'
 							>
 								<Images className='h-5 w-5' />
@@ -84,21 +88,20 @@ export default function DashboardHeader() {
 				</Sheet>
 				<Breadcrumb className='hidden md:flex'>
 					<BreadcrumbList>
-						<BreadcrumbItem>
-							<BreadcrumbLink asChild>
-								<Link href='#'>Dashboard</Link>
-							</BreadcrumbLink>
-						</BreadcrumbItem>
-						<BreadcrumbSeparator />
-						<BreadcrumbItem>
-							<BreadcrumbLink asChild>
-								<Link href='#'>Services</Link>
-							</BreadcrumbLink>
-						</BreadcrumbItem>
-						<BreadcrumbSeparator />
-						<BreadcrumbItem>
-							<BreadcrumbPage>All Services</BreadcrumbPage>
-						</BreadcrumbItem>
+						{pathnames.map((value, index) => {
+							const breadcrumbPath = `/${pathnames
+								.slice(0, index + 1)
+								.join("/")}`;
+
+							return (
+								<BreadcrumbItem key={breadcrumbPath}>
+									<BreadcrumbLink asChild>
+										<Link href={breadcrumbPath}>{value}</Link>
+									</BreadcrumbLink>
+									{index < pathnames.length - 1 && <BreadcrumbSeparator />}
+								</BreadcrumbItem>
+							);
+						})}
 					</BreadcrumbList>
 				</Breadcrumb>
 				<div className='relative ml-auto flex-1 md:grow-0'>

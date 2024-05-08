@@ -29,7 +29,7 @@ export default function DashboardAside() {
 					<Tooltip>
 						<TooltipTrigger asChild>
 							<Link
-								href='#'
+								href='/admin'
 								className='flex h-9 w-9 items-center justify-center rounded-lg bg-accent text-accent-foreground  transition-colors hover:text-foreground md:h-8 md:w-8'
 							>
 								<Home className='h-5 w-5' />
@@ -43,7 +43,7 @@ export default function DashboardAside() {
 					<Tooltip>
 						<TooltipTrigger asChild>
 							<Link
-								href='#'
+								href='/admin/services'
 								className='flex h-9 w-9 items-center justify-center rounded-lg text-muted-foreground  transition-colors hover:text-foreground md:h-8 md:w-8'
 							>
 								<Package className='h-5 w-5' />
@@ -57,7 +57,7 @@ export default function DashboardAside() {
 					<Tooltip>
 						<TooltipTrigger asChild>
 							<Link
-								href='#'
+								href='/admin/galleries'
 								className='flex h-9 w-9 items-center justify-center rounded-lg text-muted-foreground transition-colors hover:text-foreground md:h-8 md:w-8'
 							>
 								<GalleryVerticalEnd className='h-5 w-5' />
@@ -71,7 +71,7 @@ export default function DashboardAside() {
 					<Tooltip>
 						<TooltipTrigger asChild>
 							<Link
-								href='#'
+								href='/admin/images'
 								className='flex h-9 w-9 items-center justify-center rounded-lg text-muted-foreground transition-colors hover:text-foreground md:h-8 md:w-8'
 							>
 								<Images className='h-5 w-5' />
@@ -87,7 +87,7 @@ export default function DashboardAside() {
 					<Tooltip>
 						<TooltipTrigger asChild>
 							<Link
-								href='#'
+								href='/admin/settings'
 								className='flex h-9 w-9 items-center justify-center rounded-lg text-muted-foreground transition-colors hover:text-foreground md:h-8 md:w-8'
 							>
 								<Settings className='h-5 w-5' />

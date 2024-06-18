@@ -1,0 +1,80 @@
+[
+    {
+        "id": 10,
+        "name": "Newborn",
+        "hero_description": "",
+        "description": "My Newborn Portraits capture the delicate beauty of your newest family member. These gentle, serene photographs focus on the tiny details and tender moments of your baby's earliest days. I create a calm, soothing environment to ensure beautiful, peaceful images of your little one.",
+        "service_image": "https://aerys-media-local.s3.amazonaws.com/media/service_images/newborn.jpg",
+        "service_image_url": "service_images/newborn.jpg",
+        "service_page": "portraits/newborn",
+        "parent": 1,
+        "hero_gallery": null,
+        "full_gallery": null,
+        "owner": 1
+    },
+    {
+        "id": 9,
+        "name": "Family",
+        "hero_description": "",
+        "description": "Family Portraits are timeless treasures that capture the heart and soul of your family. From classic posed photographs to spontaneous, fun family moments, I focus on the unique dynamics and love shared within your family. These portraits are perfect for holiday cards, special occasions, or preserving everyday memories.",
+        "service_image": "https://aerys-media-local.s3.amazonaws.com/media/service_images/family.jpg",
+        "service_image_url": "service_images/family.jpg",
+        "service_page": "portraits/family",
+        "parent": 1,
+        "hero_gallery": null,
+        "full_gallery": null,
+        "owner": 1
+    },
+    {
+        "id": 8,
+        "name": "Kids",
+        "hero_description": "",
+        "description": "Kids Portraits are all about capturing the joy and innocence of childhood. These playful, energetic photos showcase your child's personality in a fun and natural setting. From milestone birthdays to everyday moments, I create vibrant, memorable images that you'll cherish for years to come.",
+        "service_image": "https://aerys-media-local.s3.amazonaws.com/media/service_images/kid.jpg",
+        "service_image_url": "service_images/kid.jpg",
+        "service_page": "portraits/kids",
+        "parent": 1,
+        "hero_gallery": null,
+        "full_gallery": null,
+        "owner": 1
+    },
+    {
+        "id": 6,
+        "name": "Couples",
+        "hero_description": "",
+        "description": "Capture the magic of your relationship with my Couples Portraits. Ideal for anniversaries, engagements, or simply celebrating your journey together, these portraits focus on the unique bond you share. From candid moments to posed elegance, we ensure each photograph reflects the depth and emotion of your connection.",
+        "service_image": "https://aerys-media-local.s3.amazonaws.com/media/service_images/couple.jpg",
+        "service_image_url": "service_images/couple.jpg",
+        "service_page": "portraits/couples",
+        "parent": 1,
+        "hero_gallery": null,
+        "full_gallery": null,
+        "owner": 1
+    },
+    {
+        "id": 5,
+        "name": "Maternity",
+        "hero_description": "",
+        "description": "Celebrate the beauty and anticipation of motherhood with our Maternity Portraits. These sessions are designed to highlight the elegance and strength of expecting mothers in a comfortable and serene setting. Embrace this special time with graceful, tender photos that capture the excitement of awaiting your newborn.",
+        "service_image": "https://aerys-media-local.s3.amazonaws.com/media/service_images/maternity.jpg",
+        "service_image_url": "service_images/maternity.jpg",
+        "service_page": "portraits/maternity",
+        "parent": 1,
+        "hero_gallery": null,
+        "full_gallery": null,
+        "owner": 1
+    },
+    {
+        "id": 7,
+        "name": "Branding",
+        "hero_description": "",
+        "description": "Elevate your professional image with our Branding Portraits. Perfect for entrepreneurs, executives, and professionals, these portraits are designed to enhance your business persona. With an emphasis on conveying confidence, approachability, and professionalism, our photos are tailored to support your career and business goals.",
+        "service_image": "https://aerys-media-local.s3.amazonaws.com/media/service_images/_MG_0217.jpg",
+        "service_image_url": "service_images/_MG_0217.jpg",
+        "service_page": "portraits/branding",
+        "parent": 1,
+        "hero_gallery": null,
+        "full_gallery": null,
+        "owner": 1
+    }
+]

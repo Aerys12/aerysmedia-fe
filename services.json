@@ -1,0 +1,62 @@
+[
+	{
+		"id": "linkedin",
+		"name": "LinkedIn"
+	},
+	{
+		"id": "newborn",
+		"name": "Newborn"
+	},
+	{
+		"id": "baptism",
+		"name": "Baptism"
+	},
+	{
+		"id": "family",
+		"name": "Family"
+	},
+	{
+		"id": "kids",
+		"name": "Kids"
+	},
+	{
+		"id": "couples",
+		"name": "Couples"
+	},
+	{
+		"id": "maternity",
+		"name": "Maternity"
+	},
+	{
+		"id": "sports",
+		"name": "Sports"
+	},
+	{
+		"id": "headshot",
+		"name": "Headshot"
+	},
+	{
+		"id": 17,
+		"name": "Birthday"
+	},
+	{
+		"id": 15,
+		"name": "Engagement"
+	},
+	{
+		"id": 7,
+		"name": "Branding"
+	},
+	{
+		"id": 18,
+		"name": "Showers"
+	},
+	{
+		"id": 11,
+		"name": "Actor"
+	},
+	{
+		"id": 19,
+		"name": "Corporate"
+	}
+]

@@ -1,0 +1,63 @@
+[
+	{
+		"id": 1,
+		"name": "Portraits",
+		"hero_description": "Capturing the essence of each individual, my portrait photography reveals the unique story and personality behind every face. These images are perfect for personal keepsakes or professional profiles",
+		"description": "Capture the essence of your personality and story with my bespoke portrait photography. I specialize in creating intimate, expressive portraits that reflect the unique character and spirit of each individual. My approach blends artistry with authenticity, ensuring every shot reveals the natural beauty and depth of its subject. Whether for personal keepsakes or professional portfolios, my portraits are tailored to celebrate and immortalize your unique self.",
+		"service_image": "https://aerys-media-local.s3.amazonaws.com/media/service_images/portraits.jpg",
+		"service_image_url": "service_images/portraits.jpg",
+		"service_page": "portraits",
+		"parent": null,
+		"hero_gallery": null,
+		"full_gallery": null,
+		"owner": 1,
+		"hero1": "/home-hero-images/portrait-hero1.jpg",
+		"hero2": "/home-hero-images/portrait-hero2.jpg"
+	},
+	{
+		"id": 2,
+		"name": "Headshots",
+		"hero_description": "Professional and polished, our headshots are designed to create a striking first impression, ideal for enhancing personal brands, corporate profiles, or creative portfolios.",
+		"description": "Make a lasting impression with my professional headshot photography service. Designed for entrepreneurs, actors, and professionals, our headshots blend precision and personality to create images that speak volumes. We focus on highlighting your strengths and character in every shot, ensuring you stand out in your industry. With a keen eye for detail and a commitment to quality, I deliver headshots that are not just photos, but powerful tools for your personal branding.",
+		"service_image": "https://aerys-media-local.s3.amazonaws.com/media/service_images/headshots.jpg",
+		"service_image_url": "service_images/headshots.jpg",
+		"service_page": "headshots",
+		"parent": null,
+		"hero_gallery": null,
+		"full_gallery": null,
+		"owner": 1,
+		"hero1": "/home-hero-images/headshot-hero1.jpg",
+		"hero2": "/home-hero-images/headshot-hero2.jpg"
+	},
+
+	{
+		"id": 4,
+		"name": "Events",
+		"hero_description": "My event photography captures the magic and emotion of your special occasions, from candid moments to grand celebrations, creating a lasting visual narrative of your memorable events.",
+		"description": "Immortalize the energy, emotion, and essence of your events with my expert event photography. From intimate gatherings to grand celebrations, I capture the moments that matter. I blend\r\nseamlessly into your event, ensuring that every significant moment is captured without intrusion. With a focus on storytelling, I document your event in a way that brings the experience to life for years to come.",
+		"service_image": "https://aerys-media-local.s3.amazonaws.com/media/service_images/events.jpg",
+		"service_image_url": "service_images/events.jpg",
+		"service_page": "events",
+		"parent": null,
+		"hero_gallery": null,
+		"full_gallery": null,
+		"owner": 1,
+		"hero1": "/home-hero-images/events-hero1.jpg",
+		"hero2": "/home-hero-images/events-hero2.jpg"
+	},
+	{
+		"id": 3,
+		"name": "Real Estate and Interior",
+		"hero_description": "Showcasing properties in their finest light, my real estate and interior photography highlights the elegance and unique features of each space, perfect for realtors, architects, and designers.",
+		"description": "Elevate your property listings with my professional real estate photography service. I specialize in showcasing properties in their best light, highlighting the unique features and spaces that make each property special. My photography is designed to attract potential buyers and set your listings apart. With an eye for detail and a knack for capturing the essence of a space, my real estate photography is an essential tool for selling or renting properties.",
+		"service_image": "https://aerys-media-local.s3.amazonaws.com/media/service_images/interior.jpg",
+		"service_image_url": "service_images/interior.jpg",
+		"service_page": "estate",
+		"parent": null,
+		"hero_gallery": null,
+		"full_gallery": null,
+		"owner": 1,
+		"hero1": "/home-hero-images/estate-hero1.jpg",
+		"hero2": "/home-hero-images/estate-hero2.jpg"
+	}
+]

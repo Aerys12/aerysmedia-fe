@@ -63,7 +63,7 @@ export default function DashboardHeader() {
 								Dashboard
 							</Link>
 							<Link
-								href='/admin/services'
+								href='/admin/services/all'
 								className='flex items-center gap-4 px-2.5 text-muted-foreground hover:text-foreground'
 							>
 								<Package className='h-5 w-5' />
@@ -88,19 +88,21 @@ export default function DashboardHeader() {
 				</Sheet>
 				<Breadcrumb className='hidden md:flex'>
 					<BreadcrumbList>
-						{pathnames.map((value, index) => {
+						{pathnames.flatMap((value, index) => {
 							const breadcrumbPath = `/${pathnames
 								.slice(0, index + 1)
 								.join("/")}`;
 
-							return (
+							return [
 								<BreadcrumbItem key={breadcrumbPath}>
 									<BreadcrumbLink asChild>
 										<Link href={breadcrumbPath}>{value}</Link>
 									</BreadcrumbLink>
-									{index < pathnames.length - 1 && <BreadcrumbSeparator />}
-								</BreadcrumbItem>
-							);
+								</BreadcrumbItem>,
+								index < pathnames.length - 1 && (
+									<BreadcrumbSeparator key={`separator-${breadcrumbPath}`} />
+								),
+							].filter(Boolean);
 						})}
 					</BreadcrumbList>
 				</Breadcrumb>

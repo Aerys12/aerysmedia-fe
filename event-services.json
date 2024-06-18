@@ -1,0 +1,80 @@
+[
+	{
+		"id": 14,
+		"name": "Sports",
+		"hero_description": "",
+		"description": "Capture the intensity and excitement of every game with my Sports Photography. From the thrill of victory to the agony of defeat, I document every pivotal moment with precision and artistry. My photographs tell the dynamic story of athleticism and passion, preserving the spirit of the sport in striking, action-packed images.",
+		"service_image": "https://aerys-media-local.s3.amazonaws.com/media/service_images/sports.jpg",
+		"service_image_url": "service_images/sports.jpg",
+		"service_page": "events/sports",
+		"parent": 4,
+		"hero_gallery": null,
+		"full_gallery": null,
+		"owner": 1
+	},
+	{
+		"id": 17,
+		"name": "Birthdays",
+		"hero_description": "",
+		"description": "Make every birthday unforgettable with my Birthday Photography service. From first birthdays to grand milestone celebrations, we capture the fun, excitement, and unique atmosphere of your special day. My photographs document the joyous moments and the vibrant details, creating lasting memories of your celebrations.",
+		"service_image": "https://aerys-media-local.s3.amazonaws.com/media/service_images/birthday.jpg",
+		"service_image_url": "service_images/birthday.jpg",
+		"service_page": "events/birthdays",
+		"parent": 4,
+		"hero_gallery": null,
+		"full_gallery": null,
+		"owner": 1
+	},
+	{
+		"id": 16,
+		"name": "Baptisms",
+		"hero_description": "",
+		"description": "My Baptism Photography captures the essence of this sacred occasion. I focus on the solemnity and joy of the ceremony, ensuring I photograph the key moments and the finer details. From the ceremonial rituals to the family gatherings, my images reflect the spirit and significance of this important milestone.",
+		"service_image": "https://aerys-media-local.s3.amazonaws.com/media/service_images/baptism.jpg",
+		"service_image_url": "service_images/baptism.jpg",
+		"service_page": "events/baptisms",
+		"parent": 4,
+		"hero_gallery": null,
+		"full_gallery": null,
+		"owner": 1
+	},
+	{
+		"id": 15,
+		"name": "Engagements",
+		"hero_description": "",
+		"description": "Celebrate the beginning of your journey together with my Engagement Photography. These sessions are all about the connection and excitement between you and your partner. Whether it's a scenic outdoor shoot or a cozy indoor setting, I focus on capturing the love and anticipation that marks this special time in your relationship.",
+		"service_image": "https://aerys-media-local.s3.amazonaws.com/media/service_images/engagement.jpg",
+		"service_image_url": "service_images/engagement.jpg",
+		"service_page": "engagements",
+		"parent": 4,
+		"hero_gallery": null,
+		"full_gallery": null,
+		"owner": 1
+	},
+	{
+		"id": 18,
+		"name": "Baby Showers",
+		"hero_description": "",
+		"description": "Preserve the joy and anticipation of welcoming a new life with our Baby Shower Photography. I capture the excitement, the decorations, and the heartfelt moments of your celebration. My focus is on creating a beautiful photographic record of this special time, filled with anticipation, love, and joy.",
+		"service_image": "https://aerys-media-local.s3.amazonaws.com/media/service_images/showers_1.jpg",
+		"service_image_url": "service_images/showers_1.jpg",
+		"service_page": "events/showers",
+		"parent": 4,
+		"hero_gallery": null,
+		"full_gallery": null,
+		"owner": 1
+	},
+	{
+		"id": 19,
+		"name": "Corporate",
+		"hero_description": "",
+		"description": "My Corporate Event Photography service is designed to capture the essence of your business gatherings, conferences, and celebrations. I document the key moments, the interactions, and the atmosphere, providing you with professional images that can be used for marketing, reports, or as a visual memory of your successful event.",
+		"service_image": "https://aerys-media-local.s3.amazonaws.com/media/service_images/corp.jpg",
+		"service_image_url": "service_images/corp.jpg",
+		"service_page": "events/corporate",
+		"parent": 4,
+		"hero_gallery": null,
+		"full_gallery": null,
+		"owner": 1
+	}
+]

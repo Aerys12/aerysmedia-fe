@@ -1,0 +1,28 @@
+[
+    {
+        "id": 13,
+        "name": "LinkedIn",
+        "hero_description": "",
+        "description": "Optimize your online professional profile with our LinkedIn Headshots. In the digital age, your online image is crucial, and a compelling headshot on LinkedIn can set you apart. I focus on creating approachable, professional, and engaging images that enhance your digital presence, align with your career goals, and connect you with the right network.",
+        "service_image": "https://aerys-media-local.s3.amazonaws.com/media/service_images/corporate.jpg",
+        "service_image_url": "service_images/corporate.jpg",
+        "service_page": "headshots/linkedin",
+        "parent": 2,
+        "hero_gallery": null,
+        "full_gallery": null,
+        "owner": 1
+    },
+    {
+        "id": 11,
+        "name": "Actor",
+        "hero_description": "",
+        "description": "My Actor Headshots are crafted to showcase your unique character and talent, essential for casting calls and auditions. I focus on capturing your range of expressions, ensuring each shot reflects the diverse roles you can embody. These headshots are more than just a photo; they are a tool to highlight your acting potential and charisma.",
+        "service_image": "https://aerys-media-local.s3.amazonaws.com/media/service_images/actor.jpg",
+        "service_image_url": "service_images/actor.jpg",
+        "service_page": "heashots/actors",
+        "parent": 2,
+        "hero_gallery": null,
+        "full_gallery": null,
+        "owner": 1
+    }
+]

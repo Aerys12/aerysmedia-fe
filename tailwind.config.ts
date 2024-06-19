@@ -1,3 +1,4 @@
+import { url } from "inspector";
 import type { Config } from "tailwindcss";
 const { fontFamily } = require("tailwindcss/defaultTheme");
 
@@ -21,6 +22,10 @@ const config = {
 		extend: {
 			fontFamily: {
 				sans: ["var(--font-sans)", ...fontFamily.sans],
+			},
+			backgroundImage: {
+				'hero1': "url('/estate/hero1.jpg')",
+				'hero2': "url('/estate/hero2.jpg')",
 			},
 			colors: {
 				border: "hsl(var(--border))",

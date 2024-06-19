@@ -6,7 +6,7 @@ import { CalendarClock } from "lucide-react";
 
 export default function NavBar() {
 	return (
-		<div className='z-9999 container p-0 sticky top-0'>
+		<div className='z-10 container p-0 sticky top-0'>
 			<header className=' flex h-16 items-center justify-between gap-4 border-b bg-background px-4 md:px-6'>
 				<div className='flex '>
 					<Link
@@ -31,25 +31,25 @@ export default function NavBar() {
 						Home
 					</Link>
 					<Link
-						href='/portraits'
+						href='services/portraits'
 						className='text-muted-foreground text-lg transition-colors hover:text-foreground'
 					>
 						Portraits
 					</Link>
 					<Link
-						href='/headshots'
+						href='services/headshots'
 						className='text-muted-foreground text-lg transition-colors hover:text-foreground'
 					>
 						Headshots
 					</Link>
 					<Link
-						href='/events'
+						href='services/events'
 						className='text-muted-foreground text-lg transition-colors hover:text-foreground'
 					>
 						Events
 					</Link>
 					<Link
-						href='/estate'
+						href='services/estate'
 						className='text-muted-foreground text-lg transition-colors hover:text-foreground'
 					>
 						Real Estate and Interior

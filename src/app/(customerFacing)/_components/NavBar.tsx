@@ -3,6 +3,17 @@ import Image from "next/image";
 import logo from "../../../../public/logo.png";
 import { Button } from "@/components/ui/button";
 import { CalendarClock } from "lucide-react";
+import * as React from "react";
+import { cn } from "@/lib/utils";
+import {
+	NavigationMenu,
+	NavigationMenuContent,
+	NavigationMenuItem,
+	NavigationMenuLink,
+	NavigationMenuList,
+	NavigationMenuTrigger,
+	navigationMenuTriggerStyle,
+} from "@/components/ui/navigation-menu";
 
 export default function NavBar() {
 	return (
@@ -24,36 +35,97 @@ export default function NavBar() {
 					</Link>
 				</div>
 				<nav className='hidden flex-2 w-full flex-col gap-6 text-lg font-medium md:flex md:flex-row md:items-center md:justify-center md:gap-5 md:text-sm lg:gap-6'>
-					<Link
-						href='/'
-						className='text-foreground text-lg transition-colors hover:text-foreground'
-					>
-						Home
-					</Link>
-					<Link
-						href='services/portraits'
-						className='text-muted-foreground text-lg transition-colors hover:text-foreground'
-					>
-						Portraits
-					</Link>
-					<Link
-						href='services/headshots'
-						className='text-muted-foreground text-lg transition-colors hover:text-foreground'
-					>
-						Headshots
-					</Link>
-					<Link
-						href='services/events'
-						className='text-muted-foreground text-lg transition-colors hover:text-foreground'
-					>
-						Events
-					</Link>
-					<Link
-						href='services/estate'
-						className='text-muted-foreground text-lg transition-colors hover:text-foreground'
-					>
-						Real Estate and Interior
-					</Link>
+					<NavigationMenu>
+						<NavigationMenuList>
+							<NavigationMenuItem>
+								<Link href='/' legacyBehavior passHref>
+									<NavigationMenuLink className={navigationMenuTriggerStyle()}>
+										Home
+									</NavigationMenuLink>
+								</Link>
+							</NavigationMenuItem>
+							<NavigationMenuItem>
+								<NavigationMenuTrigger>Portraits</NavigationMenuTrigger>
+								<NavigationMenuContent>
+									<ul className='grid gap-3 p-6 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]'>
+										<ListItem
+											href='services/portraits'
+											title='Portraits'
+										></ListItem>
+										<ListItem
+											href='services/couples'
+											title='Couples'
+										></ListItem>
+										<ListItem
+											href='services/branding'
+											title='Branding'
+										></ListItem>
+										<ListItem href='services/family' title='Family'></ListItem>
+										<ListItem
+											href='services/maternity'
+											title='Maternity'
+										></ListItem>
+										<ListItem href='services/kids' title='Kids'></ListItem>
+										<ListItem
+											href='services/Newborn'
+											title='Newborn'
+										></ListItem>
+									</ul>
+								</NavigationMenuContent>
+							</NavigationMenuItem>
+							<NavigationMenuItem>
+								<NavigationMenuTrigger>Headshots</NavigationMenuTrigger>
+								<NavigationMenuContent>
+									<ul className='grid gap-3 p-6 md:w-[500px] lg:w-[600px] lg:grid-cols-[.75fr_1fr]'>
+										<ListItem href='services/actors' title='Actors'></ListItem>
+										<ListItem
+											href='services/linkedin'
+											title='LinkedIn'
+										></ListItem>
+									</ul>
+								</NavigationMenuContent>
+							</NavigationMenuItem>
+							<NavigationMenuItem>
+								<NavigationMenuTrigger>Events</NavigationMenuTrigger>
+								<NavigationMenuContent>
+									<ul className='grid gap-3 p-6 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]'>
+										<ListItem
+											href='services/engagements'
+											title='Engagements'
+										></ListItem>
+										<ListItem href='services/sports' title='Sports'></ListItem>
+										<ListItem
+											href='services/birthdays'
+											title='Birthdays'
+										></ListItem>
+										<ListItem
+											href='services/baby-showers'
+											title='Baby Showers'
+										></ListItem>
+										<ListItem
+											href='services/graduations'
+											title='Graduations'
+										></ListItem>
+										<ListItem
+											href='services/corporate'
+											title='Corporate'
+										></ListItem>
+										<ListItem
+											href='services/baptisms'
+											title='Baptisms'
+										></ListItem>
+									</ul>
+								</NavigationMenuContent>
+							</NavigationMenuItem>
+							<NavigationMenuItem>
+								<Link href='/services/estate' legacyBehavior passHref>
+									<NavigationMenuLink className={navigationMenuTriggerStyle()}>
+										Real Estate and Interior
+									</NavigationMenuLink>
+								</Link>
+							</NavigationMenuItem>
+						</NavigationMenuList>
+					</NavigationMenu>
 				</nav>
 				<div className='flex flex-1 w-full items-center justify-end gap-4 md:ml-auto md:gap-2 lg:gap-4'>
 					<Button size='sm' className='h-8 gap-1'>
@@ -72,3 +144,29 @@ export default function NavBar() {
 		</div>
 	);
 }
+
+const ListItem = React.forwardRef<
+	React.ElementRef<"a">,
+	React.ComponentPropsWithoutRef<"a">
+>(({ className, title, children, ...props }, ref) => {
+	return (
+		<li>
+			<NavigationMenuLink asChild>
+				<a
+					ref={ref}
+					className={cn(
+						"block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground",
+						className
+					)}
+					{...props}
+				>
+					<div className='text-sm font-medium leading-none'>{title}</div>
+					<p className='line-clamp-2 text-sm leading-snug text-muted-foreground'>
+						{children}
+					</p>
+				</a>
+			</NavigationMenuLink>
+		</li>
+	);
+});
+ListItem.displayName = "ListItem";

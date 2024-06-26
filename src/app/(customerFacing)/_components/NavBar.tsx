@@ -49,25 +49,25 @@ export default function NavBar() {
 								<NavigationMenuContent>
 									<ul className='grid gap-3 p-6 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]'>
 										<ListItem
-											href='services/portraits'
-											title='Portraits'
+											href='/services/singles'
+											title='Singles'
 										></ListItem>
 										<ListItem
 											href='services/couples'
 											title='Couples'
 										></ListItem>
 										<ListItem
-											href='services/branding'
+											href='/services/branding'
 											title='Branding'
 										></ListItem>
 										<ListItem href='services/family' title='Family'></ListItem>
 										<ListItem
-											href='services/maternity'
+											href='/services/maternity'
 											title='Maternity'
 										></ListItem>
 										<ListItem href='services/kids' title='Kids'></ListItem>
 										<ListItem
-											href='services/Newborn'
+											href='/services/Newborn'
 											title='Newborn'
 										></ListItem>
 									</ul>
@@ -79,7 +79,7 @@ export default function NavBar() {
 									<ul className='grid gap-3 p-6 md:w-[500px] lg:w-[600px] lg:grid-cols-[.75fr_1fr]'>
 										<ListItem href='services/actors' title='Actors'></ListItem>
 										<ListItem
-											href='services/linkedin'
+											href='/services/linkedin'
 											title='LinkedIn'
 										></ListItem>
 									</ul>
@@ -90,28 +90,28 @@ export default function NavBar() {
 								<NavigationMenuContent>
 									<ul className='grid gap-3 p-6 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]'>
 										<ListItem
-											href='services/engagements'
+											href='/services/engagements'
 											title='Engagements'
 										></ListItem>
-										<ListItem href='services/sports' title='Sports'></ListItem>
+										<ListItem href='/services/sports' title='Sports'></ListItem>
 										<ListItem
-											href='services/birthdays'
+											href='/services/birthdays'
 											title='Birthdays'
 										></ListItem>
 										<ListItem
-											href='services/baby-showers'
+											href='/services/baby-showers'
 											title='Baby Showers'
 										></ListItem>
 										<ListItem
-											href='services/graduations'
+											href='/services/graduations'
 											title='Graduations'
 										></ListItem>
 										<ListItem
-											href='services/corporate'
+											href='/services/corporate'
 											title='Corporate'
 										></ListItem>
 										<ListItem
-											href='services/baptisms'
+											href='/services/baptisms'
 											title='Baptisms'
 										></ListItem>
 									</ul>
@@ -160,7 +160,7 @@ const ListItem = React.forwardRef<
 					)}
 					{...props}
 				>
-					<div className='text-sm font-medium leading-none'>{title}</div>
+					<div className='text-md font-medium leading-none'>{title}</div>
 					<p className='line-clamp-2 text-sm leading-snug text-muted-foreground'>
 						{children}
 					</p>

@@ -3,7 +3,7 @@ import Link from "next/link";
 import hero1 from "../../../../public/engagement.jpg";
 import hero2 from "../../../../public/newborn.jpg";
 import hero3 from "../../../../public/_MG_0217.jpg";
-import hero4 from "../../../../public/_MG_6363.jpg";
+import hero4 from "../../../../public/aerys.jpg";
 
 import Image from "next/image";
 

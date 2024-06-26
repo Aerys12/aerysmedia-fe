@@ -15,7 +15,7 @@ import {
 import { Button } from "@/components/ui/button";
 
 export const metadata: Metadata = {
-	title: "Real Estate and Interior Photography",
+	title: "Real Estate and Interior Photography | Aerys Media Photography",
 	description:
 		"Enhance the appeal of your property with our professional real estate and interior photography services in Toronto. We specialize in capturing stunning visuals that showcase your space’s unique features, helping you attract buyers and elevate your listings.",
 	keywords:

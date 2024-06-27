@@ -14,6 +14,7 @@ import {
 	NavigationMenuTrigger,
 	navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
+import NavSheet from "./NavSheet";
 
 export default function NavBar() {
 	return (
@@ -65,11 +66,6 @@ export default function NavBar() {
 											href='/services/maternity'
 											title='Maternity'
 										></ListItem>
-										<ListItem href='services/kids' title='Kids'></ListItem>
-										<ListItem
-											href='/services/Newborn'
-											title='Newborn'
-										></ListItem>
 									</ul>
 								</NavigationMenuContent>
 							</NavigationMenuItem>
@@ -110,10 +106,6 @@ export default function NavBar() {
 											href='/services/corporate'
 											title='Corporate'
 										></ListItem>
-										<ListItem
-											href='/services/baptisms'
-											title='Baptisms'
-										></ListItem>
 									</ul>
 								</NavigationMenuContent>
 							</NavigationMenuItem>
@@ -127,8 +119,10 @@ export default function NavBar() {
 						</NavigationMenuList>
 					</NavigationMenu>
 				</nav>
+
 				<div className='flex flex-1 w-full items-center justify-end gap-4 md:ml-auto md:gap-2 lg:gap-4'>
-					<Button size='sm' className='h-8 gap-1'>
+					<NavSheet />
+					<Button size='sm' className='hidden sm:flex h-8 gap-1'>
 						<Link
 							href='/book'
 							className='flex items-center justify-center gap-2'

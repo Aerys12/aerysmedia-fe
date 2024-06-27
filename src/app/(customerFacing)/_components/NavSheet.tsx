@@ -23,12 +23,13 @@ export default function NavSheet() {
 				</Button>
 			</SheetTrigger>
 			<SheetContent className='sm:max-w-xs'>
+				<SheetHeader><SheetTitle className="text-xl ">Services</SheetTitle></SheetHeader>
 				<PortraitLinks />
 				<HeadshotsLinks />
 				<EventsLinks />
 				<div className='w-full mt-4'>
 					<Link href='/services/estate' className='text-lg'>
-						Real Estate
+						Real Estate and Interior
 					</Link>
 				</div>
 			</SheetContent>

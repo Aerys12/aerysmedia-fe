@@ -182,7 +182,7 @@ export default function Portraits() {
 							/>
 						</div>
 						<div className='flex flex-col p-4 gap-4 md:gap-8'>
-							<h1 className='text-3xl'>What's Next?</h1>
+							<h1 className='text-3xl'>What&apos;s Next?</h1>
 							<h1 className='text-4xl md:text-6xl'>HOW TO</h1>
 							<h1 className='text-4xl md:text-6xl'>PROCEED</h1>
 							<h1 className='text-4xl md:text-6xl'>WITH BOOKING</h1>
@@ -193,7 +193,7 @@ export default function Portraits() {
 								<span className='font-semibold'>
 									{" "}
 									Simply select your preferred session type(s) from this guide
-									and hit "I&apos;m interested."{" "}
+									and hit &lsquo;I&apos;m interested.&rsquo;{" "}
 								</span>
 								I can&apos;t wait to hear from you and work together to tell your
 								portrait story.

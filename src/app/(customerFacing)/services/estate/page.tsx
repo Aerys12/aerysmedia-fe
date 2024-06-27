@@ -164,7 +164,7 @@ export default function Estate() {
 						</CardHeader>
 						<CardContent>
 							<h1 className='underline font-semibold'>
-								Heres what you'll get:
+								Heres what you&apos;ll get:
 							</h1>
 							<ul>
 								<li>30 minute planning call</li>
@@ -194,7 +194,7 @@ export default function Estate() {
 						</CardHeader>
 						<CardContent>
 							<h1 className='underline font-semibold'>
-								Heres what you'll get:
+								Heres what you&apos;ll get:
 							</h1>
 							<ul>
 								<li>30 minute planning call</li>
@@ -224,7 +224,7 @@ export default function Estate() {
 						</CardHeader>
 						<CardContent>
 							<h1 className='underline font-semibold'>
-								Heres what you'll get:
+								Heres what you&apos;ll get:
 							</h1>
 							<ul>
 								<li>30 minute planning call</li>
@@ -254,7 +254,7 @@ export default function Estate() {
 						</CardHeader>
 						<CardContent>
 							<h1 className='underline font-semibold'>
-								Heres what you'll get:
+								Heres what you&apos;ll get:
 							</h1>
 							<ul>
 								<li>30 minute planning call</li>

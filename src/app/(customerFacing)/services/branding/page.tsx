@@ -74,7 +74,7 @@ export default function Branding() {
 			<div className='grid md:grid-cols-2 p-4 md:p-8 gap-4 md:gap-8 bg-slate-50 '>
 				<div className='flex flex-col gap-4 md:gap-0 justify-center p-4 md:p-16'>
 					<h1 className='p-4'>HEY THERE:</h1>
-					<h1 className='text-2xl md:text-4xl p-4'>I'm Emmanuel</h1>
+					<h1 className='text-2xl md:text-4xl p-4'>I&apos;m Emmanuel</h1>
 					<h1 className='p-4'>
 						Your brand photography guide and fellow entrepreneur.
 					</h1>
@@ -228,7 +228,7 @@ export default function Branding() {
 									</CardContent>
 									<CardFooter className='flex justify-end'>
 										<Link className='' href='/'>
-											<Button className='text-xl'>I'm Interested</Button>
+											<Button className='text-xl'>I&apos;m Interested</Button>
 										</Link>
 									</CardFooter>
 								</div>

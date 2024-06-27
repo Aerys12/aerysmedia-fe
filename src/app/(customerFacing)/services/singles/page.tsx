@@ -83,8 +83,8 @@ export default function Portraits() {
 						<CardHeader>
 							<CardTitle>01. Connect and Consult</CardTitle>
 							<CardDescription>
-								Select the session type(s) you’re most interested in below, and
-								I’ll reach out via email within 24 hours with more information,
+								Select the session type(s) you&apos;re most interested in below, and
+								I&apos;ll reach out via email within 24 hours with more information,
 								session availability, and an opportunity to schedule a
 								complimentary consultation on my calendar.
 							</CardDescription>
@@ -101,7 +101,7 @@ export default function Portraits() {
 						<CardHeader>
 							<CardTitle>02. Schedule Your Session</CardTitle>
 							<CardDescription>
-								If we’re a great fit to work together and you’d like to move
+								If we&apos;re a great fit to work together and you&apos;d like to move
 								forward, simply sign the contract and pay a 50% deposit to
 								secure your desired session date on my calendar.
 							</CardDescription>
@@ -118,10 +118,10 @@ export default function Portraits() {
 						<CardHeader>
 							<CardTitle>03. Session Prep</CardTitle>
 							<CardDescription>
-								In the weeks and months leading up to your session, I’ll act as
+								In the weeks and months leading up to your session, I&apos;ll act as
 								a trusted resource and support for all things session prep.
 								Chances are I know the answer to any question you may have, and
-								if I don’t, I’ll find it out for you.
+								if I don&apos;t, I&apos;ll find it out for you.
 							</CardDescription>
 						</CardHeader>
 					</Card>
@@ -136,7 +136,7 @@ export default function Portraits() {
 						<CardHeader>
 							<CardTitle>04. The Photo Shoot</CardTitle>
 							<CardDescription>
-								It’s time to have some fun! I’ll guide you each step of the way
+								It&apos;s time to have some fun! I&apos;ll guide you each step of the way
 								so you feel comfortable and relaxed.
 							</CardDescription>
 						</CardHeader>
@@ -152,8 +152,8 @@ export default function Portraits() {
 						<CardHeader>
 							<CardTitle>05. Delivery</CardTitle>
 							<CardDescription>
-								I’ll deliver your images via a digital gallery within 2 weeks of
-								your shoot day. All that’s left is to enjoy them, and use them
+								I&apos;ll deliver your images via a digital gallery within 2 weeks of
+								your shoot day. All that&apos;s left is to enjoy them, and use them
 								as much as you can!
 							</CardDescription>
 						</CardHeader>
@@ -187,15 +187,15 @@ export default function Portraits() {
 							<h1 className='text-4xl md:text-6xl'>PROCEED</h1>
 							<h1 className='text-4xl md:text-6xl'>WITH BOOKING</h1>
 							<p className='pr-24'>
-								I’m honored you’re considering me to be your portrait
+								I&apos;m honored you&apos;re considering me to be your portrait
 								photographer, and I strive to make the process of working
 								together as seamless as possible.{" "}
 								<span className='font-semibold'>
 									{" "}
 									Simply select your preferred session type(s) from this guide
-									and hit ‘I'm interested.’{" "}
+									and hit "I&apos;m interested."{" "}
 								</span>
-								I can’t wait to hear from you and work together to tell your
+								I can&apos;t wait to hear from you and work together to tell your
 								portrait story.
 							</p>
 						</div>
@@ -224,7 +224,7 @@ export default function Portraits() {
 								</CardHeader>
 								<CardContent>
 									<h1 className='underline font-semibold'>
-										Heres what you'll get:
+										Heres what you&apos;ll get:
 									</h1>
 									<ul>
 										<li>30 minute planning call</li>
@@ -240,7 +240,7 @@ export default function Portraits() {
 								</CardContent>
 								<CardFooter className='flex justify-end'>
 									<Link href='/'>
-										<Button>I'm interested</Button>
+										<Button>I&apos;m interested</Button>
 									</Link>
 								</CardFooter>
 							</Card>
@@ -257,7 +257,7 @@ export default function Portraits() {
 								</CardHeader>
 								<CardContent>
 									<h1 className='underline font-semibold'>
-										Heres what you'll get:
+										Heres what you&apos;ll get:
 									</h1>
 									<ul>
 										<li>30 minute planning call</li>
@@ -273,7 +273,7 @@ export default function Portraits() {
 								</CardContent>
 								<CardFooter className='flex justify-end'>
 									<Link href='/'>
-										<Button>I'm interested</Button>
+										<Button>I&apos;m interested</Button>
 									</Link>
 								</CardFooter>
 							</Card>
@@ -290,7 +290,7 @@ export default function Portraits() {
 								</CardHeader>
 								<CardContent>
 									<h1 className='underline font-semibold'>
-										Heres what you'll get:
+										Heres what you&apos;ll get:
 									</h1>
 									<ul>
 										<li>30 minute planning call</li>
@@ -306,7 +306,7 @@ export default function Portraits() {
 								</CardContent>
 								<CardFooter className='flex justify-end'>
 									<Link href='/'>
-										<Button>I'm interested</Button>
+										<Button>I&apos;m interested</Button>
 									</Link>
 								</CardFooter>
 							</Card>

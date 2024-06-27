@@ -5,7 +5,7 @@ export default function Services() {
 				<div className='flex flex-col gap-4 md:gap-8'>
 					<h1 className='text-2xl md:text-6xl'>Coming soon</h1>
 					<p className='text-lg'>
-						We're working hard to bring you an amazing experience. This page is
+						We&apos;re working hard to bring you an amazing experience. This page is
 						currently under development and will be available soon.
 					</p>
 					<p className='text-lg'>

@@ -32,7 +32,7 @@ export default function Branding() {
 			<div className='grid md:grid-cols-2 p-4 md:p-8 gap-4 md:gap-8 '>
 				<div className='grid items-center col-span-full '>
 					<h1 className='text-4xl md:text-6xl text-center'>
-						Ready for impactful images that tell your brand’s story?
+						Ready for impactful images that tell your brand&apos;s story?
 					</h1>
 				</div>
 
@@ -55,7 +55,7 @@ export default function Branding() {
 						<div>
 							<p>
 								If you run a business, you need photography that works across
-								platforms and speaks to your target audience. Together, we’ll
+								platforms and speaks to your target audience. Together, we&apos;ll
 								create a collection of{" "}
 								<span className='font-semibold'>
 									{" "}
@@ -80,7 +80,7 @@ export default function Branding() {
 					</h1>
 					<p className='p-4'>
 						As a lifelong creative with a heart for helping business owners
-						stand out visually, it’s no surprise I eventually picked up a camera
+						stand out visually, it&apos;s no surprise I eventually picked up a camera
 						and became a brand photographer. Today, I work with busy business
 						owners like you to{" "}
 						<span className='font-semibold'>
@@ -106,7 +106,7 @@ export default function Branding() {
 					</div>
 					<div>
 						<p>
-							A tailored-to-you experience that’s as enjoyable as it is
+							A tailored-to-you experience that&apos;s as enjoyable as it is
 							effective:
 						</p>
 					</div>
@@ -125,8 +125,8 @@ export default function Branding() {
 						<span className='text-3xl font-semibold'>02.</span> Planning
 					</h1>
 					<p>
-						We’ll review your brand questionnaire and develop a plan to shoot
-						what’s most important for your business.
+						We&apos;ll review your brand questionnaire and develop a plan to shoot
+						what&apos;s most important for your business.
 					</p>
 				</div>
 				<div className='flex flex-col p-4 md:p-8 gap-4 md:gap-8'>
@@ -134,7 +134,7 @@ export default function Branding() {
 						<span className='text-3xl font-semibold'>03.</span> Photoshoot
 					</h1>
 					<p>
-						Time to have some fun! Relax and enjoy your session, knowing I’m
+						Time to have some fun! Relax and enjoy your session, knowing I&apos;m
 						here to ensure you have the experience of your dreams.
 					</p>
 				</div>
@@ -143,8 +143,8 @@ export default function Branding() {
 						<span className='text-3xl font-semibold'>04.</span> Delivery
 					</h1>
 					<p>
-						You’ll receive access to your edited digital gallery within 2-3
-						weeks. Choose 50-100 images you’d like to keep!
+						You&apos;ll receive access to your edited digital gallery within 2-3
+						weeks. Choose 50-100 images you&apos;d like to keep!
 					</p>
 				</div>
 				<div className='flex flex-col p-4 md:p-8 gap-4 md:gap-8'>
@@ -152,7 +152,7 @@ export default function Branding() {
 						<span className='text-3xl font-semibold'>05.</span> Support
 					</h1>
 					<p>
-						Have additional content needs? I’m always here to support you and
+						Have additional content needs? I&apos;m always here to support you and
 						add to your repertoire as your business evolves.
 					</p>
 				</div>
@@ -178,7 +178,7 @@ export default function Branding() {
 								{" "}
 								Select all of the services{" "}
 							</span>{" "}
-							you’re interested in learning more about and we can discuss them
+							you&apos;re interested in learning more about and we can discuss them
 							in detail on our complimentary consult call.
 						</p>
 					</div>
@@ -275,7 +275,7 @@ export default function Branding() {
 									</CardContent>
 									<CardFooter className='flex justify-end'>
 										<Link className='' href='/'>
-											<Button className='text-xl'>I'm Interested</Button>
+											<Button className='text-xl'>I&apos;m Interested</Button>
 										</Link>
 									</CardFooter>
 								</div>

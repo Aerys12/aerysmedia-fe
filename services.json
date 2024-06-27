@@ -3,22 +3,12 @@
 		"id": "linkedin",
 		"name": "LinkedIn"
 	},
-	{
-		"id": "newborn",
-		"name": "Newborn"
-	},
-	{
-		"id": "baptism",
-		"name": "Baptism"
-	},
+
 	{
 		"id": "family",
 		"name": "Family"
 	},
-	{
-		"id": "kids",
-		"name": "Kids"
-	},
+
 	{
 		"id": "couples",
 		"name": "Couples"
@@ -36,27 +26,27 @@
 		"name": "Headshot"
 	},
 	{
-		"id": 17,
+		"id": "birthdays",
 		"name": "Birthday"
 	},
 	{
-		"id": 15,
+		"id": "engagements",
 		"name": "Engagement"
 	},
 	{
-		"id": 7,
+		"id": "branding",
 		"name": "Branding"
 	},
 	{
-		"id": 18,
+		"id": "baby-showers",
 		"name": "Showers"
 	},
 	{
-		"id": 11,
+		"id": "actors",
 		"name": "Actor"
 	},
 	{
-		"id": 19,
+		"id": "corporate",
 		"name": "Corporate"
 	}
 ]

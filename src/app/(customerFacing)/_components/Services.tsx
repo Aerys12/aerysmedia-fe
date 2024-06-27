@@ -17,7 +17,7 @@ export default function Services() {
 					Choose a service to get started
 				</h1>
 			</div>
-			<div className='grid grid-cols-2 gap-4 p-4 md:p-8 md:grid-cols-3 md:gap-8 lg:grid-cols-5'>
+			<div className='grid grid-cols-2 gap-4 p-4 md:p-8 md:grid-cols-3 md:gap-8 lg:grid-cols-4'>
 				{services.map((service) => (
 					<Link href={`/services/${service.id}`} key={service.id}>
 						<Card className='items-center drop-shadow-md' key={service.id}>
